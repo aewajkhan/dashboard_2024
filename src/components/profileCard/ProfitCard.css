@@ -1,0 +1,60 @@
+.container {
+  background: #202028;
+  position: relative;
+  padding: 10px;
+  border-radius: 10px;
+  flex: 1.05;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.container:last-child {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.title {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.value {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+.border-div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.change {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.sentence{
+  font-size: 10px;
+  margin-top: 22px;
+  color: gray;
+  margin-left: 10px;
+}
+
+.percent-value {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.progress-circle {
+  position: absolute;
+  right: -20px;
+  top: 5px;
+  width: 80px;
+  height: 30px;
+  margin-right: 20%;
+}

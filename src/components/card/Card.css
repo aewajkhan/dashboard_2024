@@ -1,0 +1,46 @@
+.card-container {
+    background: #202028;
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1.05;
+    margin-right: 20px;
+    text-align: left;
+  }
+  
+  .card-container:last-child {
+    margin-right: 0;
+  }
+
+  .icon{
+    /* border: 1px solid green; */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 14px;
+    /* margin-left: 10px; */
+  }
+  
+  .card-value {
+    font-size: 32px;
+    font-weight: bold;
+    /* margin: 10px 0; */
+  }
+  
+  .card-change {
+    font-size: 14px;
+    margin-top:20px ;
+  }
+  
+
+  .value-percent{
+    display: flex;
+    justify-content: space-between;
+  }
